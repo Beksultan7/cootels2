@@ -1,0 +1,23 @@
+.header {
+  margin: 0;
+  &__inner {
+    justify-content: space-between;
+    padding: 46px 0 0 1px;
+    display: flex;
+    align-items: center;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+  &__logo {
+    display: flex;
+    text-decoration: none;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #192252;
+  }
+}

@@ -1,0 +1,191 @@
+@import "vars";
+
+.rooms {
+  margin: 160px 0 0 0;
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: $accent;
+    margin: 0;
+  }
+  &__text {
+    margin: 0;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    padding: 24px 306px 48px 306px;
+    color: $grey;
+  }
+  &__link {
+    text-align: center;
+    margin: 0;
+  }
+  &__a {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: $light;
+    padding: 16px 32px;
+    background: #0e1734;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  &__wrapper {
+    margin-top: 104px;
+    display: grid;
+    grid-template-columns: repeat(3, 384px);
+    grid-template-rows: 713px;
+    gap: 24px;
+  }
+  &__box1 {
+    max-width: 384px;
+    max-height: 713px;
+  }
+  &__img {
+    margin: 0;
+  }
+  &__title1 {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    padding: 32px 226px 16px 0;
+  }
+  &__text1 {
+    margin: 0;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: $grey;
+    padding: 0 0 32px 0;
+  }
+  &__link1 {
+    margin: 0;
+    padding: 0 287px 0 0;
+  }
+  &__a1 {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #424f7b;
+    text-decoration: none;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: url(../images/Vector.svg);
+      left: 109px;
+      max-height: 20px;
+      min-width: 20px;
+    }
+  }
+  &__box2 {
+    max-width: 384px;
+    max-height: 713px;
+  }
+  &__title2 {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    padding: 32px 213px 16px 0;
+  }
+  &__text2 {
+    margin: 0;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: $grey;
+    padding: 0 10px 32px 0;
+  }
+  &__link2 {
+    margin: 0;
+    padding: 0 287px 0 0;
+  }
+  &__a2 {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #424f7b;
+    text-decoration: none;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: url(../images/Vector.svg);
+      left: 109px;
+      max-height: 20px;
+      min-width: 20px;
+    }
+  }
+  &__box3 {
+    max-width: 384px;
+    max-height: 713px;
+  }
+  &__title3 {
+    margin: 0;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    padding: 32px 279px 16px 0;
+  }
+  &__text3 {
+    margin: 0;
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: $grey;
+    padding: 0 0 32px 0;
+  }
+  &__link3 {
+    margin: 0;
+    padding: 0 287px 0 0;
+  }
+  &__a3 {
+    font-family: $secondary-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #424f7b;
+    text-decoration: none;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: url(../images/Vector.svg);
+      left: 109px;
+      max-height: 20px;
+      min-width: 20px;
+    }
+  }
+}

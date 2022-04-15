@@ -1,0 +1,82 @@
+.footer {
+  background-color: #0b265a;
+  &__inner {
+    padding: 120px 64px 120px 0;
+    display: flex;
+  }
+  &__nav {
+    display: flex;
+  }
+  &__menu1 {
+    height: 191px;
+    margin: 0;
+    padding: 0 100px 13px 0;
+  }
+  &__menu2 {
+    margin: 0;
+    padding: 0 141px 99px 0;
+  }
+  &__menu3 {
+    padding: 0;
+    margin: 0;
+  }
+
+  &__svg {
+    display: flex;
+    gap: 24px;
+  }
+  &__block1 {
+    margin-right: 413px;
+    width: 172px;
+    height: 204px;
+  }
+  &__title {
+    margin: 0;
+    padding-bottom: 13px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+  }
+  &__text {
+    margin: 0;
+    padding: 0 0px 36px 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #d9dbde;
+  }
+  &__item {
+    margin: 0;
+    list-style: none;
+    padding-bottom: 24px;
+  }
+  &__link-title {
+    margin: 0;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+
+    color: #ffffff;
+  }
+  &__link {
+    margin: 0;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #d9dbde;
+  }
+}

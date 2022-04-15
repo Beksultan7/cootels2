@@ -1,0 +1,58 @@
+@import "vars";
+.hotel {
+  margin-top: 160px;
+  &__inner {
+    margin: 0;
+    display: flex;
+    gap: 126px;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 105px 73px 24px 0px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: #192252;
+  }
+  &__text1 {
+    margin: 0;
+    padding: 0 106px 16px 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848fac;
+  }
+  &__text2 {
+    margin: 0;
+    padding: 0px 106px 32px 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #848fac;
+  }
+  &__clik1 {
+    margin-left: 59px;
+    width: 151px;
+    height: 51px;
+    left: 630px;
+    top: 500px;
+    background: #0e1734;
+    border-radius: 4px;
+  }
+  &__toggle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+}

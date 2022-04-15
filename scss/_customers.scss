@@ -1,0 +1,49 @@
+@import "vars";
+.customers {
+  margin-top: 160px;
+  &__inner {
+    padding: 0 203px 80px 204px;
+  }
+  &__title {
+    padding: 0 0 64px 0;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #192252;
+  }
+  &__img {
+    padding: 0 336px 0 337px;
+  }
+  &__text {
+    text-align: center;
+    padding: 44px 0 40px 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+    text-align: center;
+
+    color: #848fac;
+  }
+  &__title2 {
+    padding: 0 322px 0 324px;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    color: #192252;
+  }
+  &__img1 {
+    padding: 0 359px 0 360px;
+  }
+}

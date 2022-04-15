@@ -1,3 +1,4 @@
 # Cootels
 
-https://argentooo.github.io/Cootels/
+ https://beksultan7.github.io/cootels2/
+ 
